@@ -20,7 +20,7 @@
 <body>
   <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
     <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">TSH Multiservicios</a>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Buscar" aria-label="Search">
+    <input class="form-control form-control-dark w-100" type="text" value="Buscar" aria-label="Search">
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
         <a class="nav-link" href="#">Cerrar sesión</a>
@@ -67,29 +67,31 @@
       </nav>
 
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-          <div class="card text-white bg-info mb-3">
-            <div class="card-body">
-              <h3 class="card-title">Bienvenido a TSH, Saúl!</h3>
+          <h3>Editar Vehículo #1</h3>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nombre</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="Vehículo #1">
             </div>
-          </div>
-        <div class="container">
-          <h3>Revisar estado de:</h3>
-          <br/>
-          <div class="row">
-            <div class="col-sm">
-              <a href="inventario.html"><h4>Inventario</h4></a>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Marca</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="Hyundai">
             </div>
-            <div class="col-sm">
-              <a href="vehiculos.html"><h4>Vehiculos</h4></a>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Modelo</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="2006">
             </div>
-            <div class="col-sm">
-              <a href="flotillas.html"><h4>Flotillas</h4></a>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Número de serie</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="49846289419">
             </div>
-            <div class="col-sm">
-              <a href="personal.html"><h4>Personal</h4></a>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Fecha de ingreso a la empresa</label>
+              <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="03/28/2006">
             </div>
-          </div>
-        </div>
+            <button type="submit" class="btn btn-primary">Actualizar</button>
+            <button type="submit" class="btn btn-danger">Desactivar</button>
+          </form>
       </main>
     </div>
   </div>
